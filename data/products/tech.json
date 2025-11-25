@@ -1,0 +1,709 @@
+[
+  {
+    "name": "Adobe Photoshop",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "GIMP",
+        "country_code": "OSS",
+        "link": "https://www.gimp.org/"
+      },
+      {
+        "name": "Krita",
+        "country_code": "OSS",
+        "link": "https://krita.org/"
+      },
+      {
+        "name": "Affinity Photo",
+        "country_code": "GB",
+        "link": "https://affinity.serif.com/en-gb/photo/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Premiere Pro",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Kdenlive",
+        "country_code": "OSS",
+        "link": "https://kdenlive.org/en/"
+      },
+      {
+        "name": "OpenShot",
+        "country_code": "OSS",
+        "link": "https://www.openshot.org/"
+      },
+      {
+        "name": "Wondershare Filmora",
+        "country_code": "CN",
+        "link": "https://filmora.wondershare.com/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe After Effects",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Natron",
+        "country_code": "OSS",
+        "link": "https://natrongithub.github.io/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Audition",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Audacity",
+        "country_code": "OSS",
+        "link": "https://www.audacityteam.org/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Lightroom",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Darktable",
+        "country_code": "OSS",
+        "link": "https://www.darktable.org/"
+      },
+      {
+        "name": "RawTherapee",
+        "country_code": "OSS",
+        "link": "https://www.rawtherapee.com/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe InDesign",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Scribus",
+        "country_code": "OSS",
+        "link": "https://www.scribus.net/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Acrobat Pro",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Okular",
+        "country_code": "OSS",
+        "link": "https://okular.kde.org/"
+      },
+      {
+        "name": "Foxit PDF Reader",
+        "country_code": "CN",
+        "link": "https://www.foxit.com/pdf-reader/"
+      }
+    ]
+  },
+  {
+    "name": "Google Workspace",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "LARK Suite",
+        "country_code": "CN",
+        "link": "https://www.larksuite.com/"
+      },
+      {
+        "name": "Zoho",
+        "country_code": "IN",
+        "link": "https://www.zoho.com/"
+      }
+    ]
+  },
+  {
+    "name": "Google Forms",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Zoho Forms",
+        "country_code": "IN",
+        "link": "https://www.zoho.com/forms/"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Illustrator",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Inkscape",
+        "country_code": "OSS",
+        "link": "https://inkscape.org/"
+      },
+      {
+        "name": "Affinity Designer",
+        "country_code": "GB",
+        "link": "https://affinity.serif.com/en-gb/designer/"
+      }
+    ]
+  },
+  {
+    "name": "GitHub",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "GitLab",
+        "country_code": "UA",
+        "link": "https://gitlab.com/"
+      },
+      {
+        "name": "Bitbucket",
+        "country_code": "AU",
+        "link": "https://bitbucket.org/"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Office",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "LibreOffice",
+        "country_code": "OSS",
+        "link": "https://www.libreoffice.org/"
+      },
+      {
+        "name": "OnlyOffice",
+        "country_code": "OSS",
+        "link": "https://www.onlyoffice.com/"
+      },
+      {
+        "name": "WPS Office",
+        "country_code": "CN",
+        "link": "https://www.wps.com/"
+      }
+    ]
+  },
+  {
+    "name": "Monday.com",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Plane",
+        "country_code": "OSS",
+        "link": "https://plane.so/"
+      },
+      {
+        "name": "Tuleap",
+        "country_code": "OSS",
+        "link": "https://tuleap.org/"
+      },
+      {
+        "name": "Jira",
+        "country_code": "AU",
+        "link": "https://jira.atlassian.com/"
+      }
+    ]
+  },
+  {
+    "name": "Zappier",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "N8N",
+        "country_code": "OSS",
+        "link": "https://n8n.io/"
+      }
+    ]
+  },
+  {
+    "name": "Salesforce",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Odoo",
+        "country_code": "OSS",
+        "link": "https://odoo.com/"
+      },
+      {
+        "name": "ERPNext",
+        "country_code": "OSS",
+        "link": "https://frappe.io/erpnext"
+      }
+    ]
+  },
+  {
+    "name": "Cisco",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Huawei",
+        "country_code": "CN",
+        "link": "https://www.huawei.com/en/"
+      }
+    ]
+  },
+  {
+    "name": "Linkedin",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Qabilah",
+        "country_code": "SA",
+        "link": "https://qabilah.com/"
+      }
+    ]
+  },
+  {
+    "name": "Slack",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Rocket.Chat",
+        "country_code": "OSS",
+        "link": "https://rocket.chat/"
+      },
+      {
+        "name": "Mattermost",
+        "country_code": "OSS",
+        "link": "https://mattermost.com/"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Windows",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Ubuntu",
+        "country_code": "OSS",
+        "link": "https://ubuntu.com/download/"
+      },
+      {
+        "name": "Linux Mint",
+        "country_code": "OSS",
+        "link": "https://linuxmint.com/"
+      },
+      {
+        "name": "Fedora",
+        "country_code": "OSS",
+        "link": "https://fedoraproject.org/"
+      },
+      {
+        "name": "Debian",
+        "country_code": "OSS",
+        "link": "https://debian.org/"
+      }
+    ]
+  },
+  {
+    "name": "Wix",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Joomla",
+        "country_code": "OSS",
+        "link": "https://www.joomla.org/"
+      },
+      {
+        "name": "Drupal",
+        "country_code": "OSS",
+        "link": "https://drupal.org/project/drupal/"
+      },
+      {
+        "name": "Wuilt",
+        "country_code": "EG",
+        "link": "https://wuilt.com/"
+      }
+    ]
+  },
+  {
+    "name": "Fiverr",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Khamsat",
+        "country_code": "GB",
+        "link": "https://www.khamsat.com/"
+      }
+    ]
+  },
+  {
+    "name": "Upwork",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Mostaql",
+        "country_code": "GB",
+        "link": "https://mostaql.com/"
+      }
+    ]
+  },
+  {
+    "name": "AWS",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "OVH",
+        "country_code": "FR",
+        "link": "https://www.ovh.com/"
+      },
+      {
+        "name": "Hetzner",
+        "country_code": "DE",
+        "link": "https://www.hetzner.com/"
+      }
+    ]
+  },
+  {
+    "name": "Zoom",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Vconnct",
+        "country_code": "EG",
+        "link": "https://vconnct.me/"
+      },
+      {
+        "name": "Jitsi Meet",
+        "country_code": "OSS",
+        "link": "https://jitsi.org/"
+      },
+      {
+        "name": "BigBlueButton",
+        "country_code": "OSS",
+        "link": "https://bigbluebutton.org/"
+      }
+    ]
+  },
+  {
+    "name": "ChatGPT",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Nojoom.AI",
+        "country_code": "DZ",
+        "link": "https://nojoom.ai/"
+      },
+      {
+        "name": "DeepSeek",
+        "country_code": "CN",
+        "link": "https://www.deepseek.com/"
+      },
+      {
+        "name": "Qwen",
+        "country_code": "OSS",
+        "link": "https://chat.qwen.ai/"
+      }
+    ]
+  },
+  {
+    "name": "Firebase",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Supabase",
+        "country_code": "OSS",
+        "link": "https://supabase.com/"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Azure",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "OpenStack",
+        "country_code": "OSS",
+        "link": "https://www.openstack.org/"
+      },
+      {
+        "name": "Alibaba Cloud",
+        "country_code": "CN",
+        "link": "https://www.alibabacloud.com/"
+      },
+      {
+        "name": "Scaleway",
+        "country_code": "FR",
+        "link": "https://www.scaleway.com/"
+      }
+    ]
+  },
+  {
+    "name": "Similarweb",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "SEMrush",
+        "country_code": "RU",
+        "link": "https://www.semrush.com/"
+      },
+      {
+        "name": "Ahrefs",
+        "country_code": "SG",
+        "link": "https://ahrefs.com/"
+      }
+    ]
+  },
+  {
+    "name": "Red Hat",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Ubuntu",
+        "country_code": "OSS",
+        "link": "https://ubuntu.com/download/"
+      },
+      {
+        "name": "Linux Mint",
+        "country_code": "OSS",
+        "link": "https://linuxmint.com/"
+      },
+      {
+        "name": "Fedora",
+        "country_code": "OSS",
+        "link": "https://fedoraproject.org/"
+      },
+      {
+        "name": "Debian",
+        "country_code": "OSS",
+        "link": "https://debian.org/"
+      }
+    ]
+  },
+  {
+    "name": "Gusto",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Bayzat",
+        "country_code": "AE",
+        "link": "https://www.bayzat.com/"
+      },
+      {
+        "name": "ZenHR",
+        "country_code": "JO",
+        "link": "https://www.zenhr.com/"
+      }
+    ]
+  },
+  {
+    "name": "Deel",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "RemotePass",
+        "country_code": "AE",
+        "link": "https://www.remotepass.com/"
+      }
+    ]
+  },
+  {
+    "name": "Tabnine",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Refact",
+        "country_code": "GB",
+        "link": "https://refact.ai/"
+      },
+      {
+        "name": "CodeGeeX",
+        "country_code": "OSS",
+        "link": "https://codegeex.cn/en-US"
+      }
+    ]
+  },
+  {
+    "name": "Canva",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Namoothaj",
+        "country_code": "AE",
+        "link": "https://www.namoothaj.com/"
+      }
+    ]
+  },
+  {
+    "name": "Viber",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "Signal",
+        "country_code": "OSS",
+        "link": "https://signal.org/"
+      },
+      {
+        "name": "Telegram",
+        "country_code": "AE",
+        "link": "https://telegram.org/"
+      }
+    ]
+  },
+  {
+    "name": "WhatsApp",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Signal",
+        "country_code": "OSS",
+        "link": "https://signal.org/"
+      },
+      {
+        "name": "Telegram",
+        "country_code": "AE",
+        "link": "https://telegram.org/"
+      }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "AliExpress",
+        "country_code": "CN",
+        "link": "https://www.aliexpress.com/"
+      },
+      {
+        "name": "Temu",
+        "country_code": "CN",
+        "link": "https://www.temu.com/"
+      },
+      {
+        "name": "Banggood",
+        "country_code": "CN",
+        "link": "https://ar.banggood.com/"
+      }
+    ]
+  },
+  {
+    "name": "Notion",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Joplin",
+        "country_code": "OSS",
+        "link": "https://joplinapp.org/"
+      },
+      {
+        "name": "Obsidian",
+        "country_code": "CA",
+        "link": "https://obsidian.md/"
+      }
+    ]
+  },
+  {
+    "name": "PayPal",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Wise",
+        "country_code": "GB",
+        "link": "https://wise.com/"
+      }
+    ]
+  },
+  {
+    "name": "Cloudinary",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "ImageKit",
+        "country_code": "IN",
+        "link": "https://imagekit.io/"
+      },
+      {
+        "name": "Uploadcare",
+        "country_code": "RU",
+        "link": "https://uploadcare.com/"
+      },
+      {
+        "name": "Sirv",
+        "country_code": "GB",
+        "link": "https://sirv.com/"
+      }
+    ]
+  },
+  {
+    "name": "Google MAPS",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "2GIS",
+        "country_code": "RU",
+        "link": "https://2gis.ae/"
+      }
+    ]
+  },
+  {
+    "name": "Waze",
+    "category_id": "tech",
+    "country_code": "IL",
+    "alternatives": [
+      {
+        "name": "2GIS",
+        "country_code": "RU",
+        "link": "https://2gis.ae/"
+      }
+    ]
+  },
+  {
+    "name": "Google Maps API",
+    "category_id": "tech",
+    "country_code": "US",
+    "alternatives": [
+      {
+        "name": "Open Street Map",
+        "country_code": "OSS",
+        "link": "https://github.com/openstreetmap/"
+      },
+      {
+        "name": "Yandex Maps Api",
+        "country_code": "RU",
+        "link": "https://yandex.com/maps-api/"
+      }
+    ]
+  }
+]

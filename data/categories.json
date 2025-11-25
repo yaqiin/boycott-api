@@ -1,0 +1,41 @@
+[
+  {
+    "id": "tech",
+    "name": {
+      "ar": "تكنولوجيا",
+      "bn": "প্রযুক্তি",
+      "en": "Technology",
+      "es": "Tecnología",
+      "fr": "Technologie",
+      "id": "Teknologi",
+      "tr": "Teknoloji",
+      "ur": "ٹیکنالوجی"
+    }
+  },
+  {
+    "id": "food-drinks",
+    "name": {
+      "ar": "مأكولات ومشروبات",
+      "bn": "খাবার ও পানীয়",
+      "en": "Food and Drinks",
+      "es": "Comida y Bebidas",
+      "fr": "Nourriture et Boissons",
+      "id": "Makanan dan Minuman",
+      "tr": "Yiyecek ve İçecekler",
+      "ur": "کھانا اور مشروبات"
+    }
+  },
+  {
+    "id": "clothing",
+    "name": {
+      "ar": "ملابس",
+      "bn": "পোশাক",
+      "en": "Clothing",
+      "es": "Ropa",
+      "fr": "Vêtements",
+      "id": "Pakaian",
+      "tr": "Giysi",
+      "ur": "کپڑے"
+    }
+  }
+]
