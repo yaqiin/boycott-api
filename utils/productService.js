@@ -49,12 +49,14 @@ function translateProduct(product, lang, categoriesData, countriesData) {
   const country = countriesData.find(c => c.code === product.country_code);
   if (country) {
     translated.country = translate(country.name, lang);
+    translated.countryCode = country.code;
   }
 
   if (product.alternatives) {
     translated.alternatives = product.alternatives.map(alt => ({
       name: alt.name,
       link: alt.link,
+      countryCode: alt.country_code,
       country: translate(
         countriesData.find(c => c.code === alt.country_code)?.name || {},
         lang
