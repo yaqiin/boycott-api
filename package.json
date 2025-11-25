@@ -1,6 +1,6 @@
 {
   "name": "boycott-api",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "API for boycott data with internationalization support",
   "main": "server.js",
   "scripts": {
