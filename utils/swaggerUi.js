@@ -3,13 +3,13 @@ const { getBaseUrl } = require('../config/constants');
 function getSwaggerUiHtml() {
   const baseUrl = getBaseUrl();
   
-  return `
-<!DOCTYPE html>
+  return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boycott API Documentation</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist@5.10.3/swagger-ui.css" />
   <style>
     html {
       box-sizing: border-box;
@@ -20,15 +20,15 @@ function getSwaggerUiHtml() {
       box-sizing: inherit;
     }
     body {
-      margin:0;
+      margin: 0;
       background: #fafafa;
     }
   </style>
 </head>
 <body>
   <div id="swagger-ui"></div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui-standalone-preset.min.js"></script>
+  <script src="https://unpkg.com/swagger-ui-dist@5.10.3/swagger-ui-bundle.js"></script>
+  <script src="https://unpkg.com/swagger-ui-dist@5.10.3/swagger-ui-standalone-preset.js"></script>
   <script>
     window.onload = function() {
       window.ui = SwaggerUIBundle({
@@ -46,8 +46,7 @@ function getSwaggerUiHtml() {
     };
   </script>
 </body>
-</html>
-  `;
+</html>`;
 }
 
 module.exports = { getSwaggerUiHtml };

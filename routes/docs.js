@@ -10,6 +10,7 @@ router.get('/swagger.json', (req, res) => {
 });
 
 router.get('/', (req, res) => {
+  res.setHeader('Content-Type', 'text/html');
   res.send(getSwaggerUiHtml());
 });
 
