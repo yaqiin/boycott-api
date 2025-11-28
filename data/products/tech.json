@@ -635,6 +635,7 @@
   },
   {
     "name": "PayPal",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
@@ -646,6 +647,7 @@
   },
   {
     "name": "Cloudinary",
+    "category_id": "tech",
     "country_code": "US",
     "alternatives": [
       {
