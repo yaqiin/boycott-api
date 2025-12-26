@@ -8,7 +8,20 @@ function loadJSONFile(filename) {
 
 function loadProducts() {
   const productsDir = path.join(__dirname, '..', 'data', 'products');
-  const productFiles = fs.readdirSync(productsDir).filter(file => file.endsWith('.json'));
+  const preferredOrder = ['tech.json', 'clothing.json', 'food_drinks.json'];
+  const productFiles = fs
+    .readdirSync(productsDir)
+    .filter(file => file.endsWith('.json'))
+    .sort((a, b) => {
+      const indexA = preferredOrder.indexOf(a);
+      const indexB = preferredOrder.indexOf(b);
+      if (indexA === -1 && indexB === -1) {
+        return a.localeCompare(b);
+      }
+      if (indexA === -1) return 1;
+      if (indexB === -1) return -1;
+      return indexA - indexB;
+    });
   
   let allProducts = [];
   productFiles.forEach(file => {
@@ -35,4 +48,3 @@ module.exports = {
   loadJSONFile,
   loadProducts,
 };
-
