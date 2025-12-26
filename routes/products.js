@@ -38,6 +38,12 @@ const data = loadData();
  *           type: string
  *           example: US
  *         description: Filter by country code
+ *       - in: query
+ *         name: name
+ *         schema:
+ *           type: string
+ *           example: Coca
+ *         description: Search products by name (case-insensitive partial match)
  *       - in: header
  *         name: Accept-Language
  *         schema:
@@ -99,13 +105,14 @@ router.get('/', asyncHandler(async (req, res) => {
   const limit = parseInt(req.query.limit) || 10;
   const categoryId = req.query.category_id;
   const countryCode = req.query.country;
+  const productName = req.query.name;
 
   const result = getProducts(
     data.products,
     data.categories,
     data.countries,
     lang,
-    { categoryId, countryCode },
+    { categoryId, countryCode, productName },
     { page, limit }
   );
 

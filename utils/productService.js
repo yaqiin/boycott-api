@@ -1,6 +1,6 @@
 const { translate } = require('./i18n');
 
-function filterProducts(products, categoryId, countryCode) {
+function filterProducts(products, categoryId, countryCode, productName) {
   let filtered = [...products];
 
   if (categoryId) {
@@ -10,6 +10,13 @@ function filterProducts(products, categoryId, countryCode) {
   if (countryCode) {
     filtered = filtered.filter(
       product => product.country_code === countryCode.toUpperCase()
+    );
+  }
+
+  if (productName) {
+    const searchTerm = productName.trim().toLowerCase();
+    filtered = filtered.filter(product =>
+      product.name.toLowerCase().includes(searchTerm)
     );
   }
 
@@ -68,10 +75,10 @@ function translateProduct(product, lang, categoriesData, countriesData) {
 }
 
 function getProducts(products, categoriesData, countriesData, lang, filters, pagination) {
-  const { categoryId, countryCode } = filters;
+  const { categoryId, countryCode, productName } = filters;
   const { page = 1, limit = 10 } = pagination;
 
-  const filtered = filterProducts(products, categoryId, countryCode);
+  const filtered = filterProducts(products, categoryId, countryCode, productName);
   const { data: paginated, pagination: paginationInfo } = paginate(filtered, page, limit);
 
   const translated = paginated.map(product =>
